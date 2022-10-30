@@ -1,0 +1,61 @@
+root:{
+    --primary-text-color:
+    --title-text-color:
+    --accent-color:
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-nav{
+    background-color:yellow;
+    list-style: none;
+}
+
+header a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-nav-link{
+color:#212121;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+    color:#2196F3;
+    }
+
+.header-contact{
+color: #757575;
+}
+
+.header-contact:hover,
+.header-contact:focus{
+    color:#2196F3;
+    }
+
+ .button{
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+border: none;
+color: #FFFFFF;
+ }
+
+ .button:hover,
+ .button:focus{
+    color:#2196F3;
+    }
+   
+
+.list{
+    list-style: none;
+}
