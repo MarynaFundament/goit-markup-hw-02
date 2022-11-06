@@ -14,6 +14,7 @@
     padding: 0;
 }
 
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
@@ -26,6 +27,7 @@ body{
 
 a{
     text-decoration: none;
+    font-style: normal;
    }
 
 
@@ -39,14 +41,35 @@ a{
     background-color: var(--title-text-color2);
 }
 
-.header a{
+.logo{
+    color:var(--title-text-color);
+    font-family: var(--additional-font);
+    font-weight: 700;
+    font-size: 26px; 
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.web{
+    color: var(--accent-color);
+    font-family: var(--additional-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.header-nav-link{
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
+
+
 
 
 .header-nav-link{
@@ -58,24 +81,16 @@ a{
         color:var(--accent-color);
         }
     
-    .header-contact{
+    .contact{
     color: var(--primary-text-color);
     }
     
-    .header-contact:hover,
-    .header-contact:focus{
+    .contact:hover,
+    .contact:focus{
         color:var(--accent-color);
         }
 
-    .logo{
-    color: var(--title-text-color);
-    font-family: var(--additional-font);
-        }
-
-    .web{
-        color: var(--accent-color);
-        font-family: var(--additional-font);
-    }    
+     
 
 /*---------------------MAIN------------------------*/
 
@@ -118,7 +133,7 @@ color: var(--title-text-color2);
 .button{
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -144,6 +159,19 @@ font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+
+h3{
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+
+
 
 }
 
@@ -215,23 +243,37 @@ color: var(--primary-text-color);
     background-color:  #2F303A;
 }
 
-.logo-footer{
-    color: var(--title-text-color2);
-}
 
 
-    
+.footer-link 
+.footer-contact{
 
-.footer a{
     text-decoration: none;
     font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color2);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
 }
+
+.footer-link{
+    color: var(--title-text-color2);  
+}
+
+.footer-contact{
+    color: var(--primary-text-color);
+}
+
+.logo-footer{
+    color:var(--title-text-color2);
+    font-family: var(--additional-font);
+    font-weight: 700;
+    font-size: 26px; 
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+
 
 
 
